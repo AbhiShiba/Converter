@@ -1,0 +1,70 @@
+textarea {
+    font-size: 5rem !important;
+  }
+  .buttons {
+    max-width: 100px;
+  }
+
+  body {
+    padding-top: 25px;
+  }
+
+.container-converter {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.col-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input, .output {
+    width: 27rem;
+}
+
+.sub-btn, .swap-btn {
+    margin: 1rem;
+    text-align: center;
+}
+
+.table-info {
+    border: 1px solid black;
+}
+
+th {
+    background-color: aqua;
+}
+
+.div-info {
+    display: flex;
+}
+
+.info {
+    margin: 1rem;
+    padding-left: 10rem;
+}
+
+@media  screen and (max-width: 800px) {
+    .container-converter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-btn{
+        display: flex;
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .info {
+        margin: 1rem;
+        padding-left: 0rem;
+    }
+}
